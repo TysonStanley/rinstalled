@@ -7,6 +7,8 @@ Maintainer: Tyson S. Barrett <t.barrett@aggiemail.usu.edu>
 Description: Looks up packages and the versions of the packages
   installed on the machine and sees if the packages are available
   on CRAN or not.
+Depends: dplyr,
+  magrittr
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
